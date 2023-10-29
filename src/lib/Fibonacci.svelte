@@ -33,7 +33,7 @@
     <button on:click="{fib}">Calculate</button>
     
     {#if result}
-        <p>{BigInt(result)}</p>
+        <p>{result}</p>
     {:else}
         <p></p>
     {/if}
