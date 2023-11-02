@@ -5,7 +5,7 @@ use num_bigint::BigUint;
 use num_traits::{Zero, One};
 
 #[tauri::command]
-fn fib(nth: usize) -> BigUint {
+fn fib(nth: usize) -> String {
   let mut f0: BigUint = Zero::zero();
   let mut f1: BigUint = One::one();
 
@@ -15,7 +15,7 @@ fn fib(nth: usize) -> BigUint {
     f1 = f2
   }
   
-  f0
+  f0.to_string()
 }
 
 fn main() {
