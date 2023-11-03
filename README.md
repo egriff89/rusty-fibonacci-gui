@@ -4,4 +4,5 @@ GUI version of my [Rusty Fibonacci CLI](https://github.com/egriff89/rusty-fibona
 
 ## Todo
 - [x] ~~Fix issues with generating numbers when `nth` is larger than 47.~~
-- [ ] Add CSS to make it actually look nice.
+- [x] ~~Add CSS to make it actually look nice.~~
+- [ ] Format strings to make numbers more readable.
