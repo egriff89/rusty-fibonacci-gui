@@ -20,6 +20,11 @@
         await fib();
         inputField.value = '';
     }
+
+    async function clearInput() {
+        inputField.value = '';
+        result = '';
+    }
 </script>
 
 <div class="container">
@@ -28,12 +33,14 @@
     <div class="row">
         <input 
             type="number"
+            min="0"
             bind:this={inputField} 
             id="fib-input"
             placeholder="Enter a number..."
             bind:value="{nth}"
             on:keydown={onKeydown} />
         <button on:click="{fib}">Calculate</button>
+        <button id="clear-fields" on:click="{clearInput}">Clear</button>
     </div>
     
     <div class="row" id="result">
