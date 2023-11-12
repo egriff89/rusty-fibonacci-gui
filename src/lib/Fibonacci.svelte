@@ -8,7 +8,7 @@
     let inputField;
     
     /** @type {string} */
-    let result;
+    let result = '';
 
     async function fib() {
         result = await invoke('fib', { nth });
@@ -36,9 +36,7 @@
         <button on:click="{fib}">Calculate</button>
     </div>
     
-    {#if result}
+    <div class="row" id="result">
         <p>{result}</p>
-    {:else}
-        <p></p>
-    {/if}
+    </div>
 </div>

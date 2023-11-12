@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 500,
         "resizable": true,
         "title": "Rusty Fibonacci",
-        "width": 800
+        "width": 600
       }
     ]
   }
