@@ -84,6 +84,12 @@ button {
   margin-right: 5px;
 }
 
+#result {
+  flex-direction:row;
+  overflow-wrap: break-word;
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
