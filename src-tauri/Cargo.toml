@@ -1,13 +1,13 @@
 [package]
-name = "app"
-version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
-default-run = "app"
+name = "rusty-fibonacci-gui"
+version = "1.0.0"
+description = "Calculate any number in the Fibonacci sequence"
+authors = ["Eric Griffith <eric.griffith42@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/egriff89/rusty-fibonacci-gui"
+default-run = "rusty-fibonacci-gui"
 edition = "2021"
-rust-version = "1.60"
+rust-version = "1.73"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
