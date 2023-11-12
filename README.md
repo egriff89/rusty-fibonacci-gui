@@ -1,8 +1,6 @@
-# rusty-fibonacci-gui
+# Rusty Fibonacci GUI
 
-GUI version of my [Rusty Fibonacci CLI](https://github.com/egriff89/rusty-fibonacci) utility, powered by [Svelte](https://svelte.dev/) and [Tauri](https://tauri.app/). Still very much a work in progress, but still technically works. Made as an exercise in learning Rust.
+GUI version of my [Rusty Fibonacci CLI](https://github.com/egriff89/rusty-fibonacci) utility, powered by [Svelte](https://svelte.dev/) and [Tauri](https://tauri.app/). The styles are slightly modified from the SvelteKit template as I'm terrible at CSS.
 
-## Todo
-- [x] ~~Fix issues with generating numbers when `nth` is larger than 47.~~
-- [x] ~~Add CSS to make it actually look nice.~~
-- [ ] Format strings to make numbers more readable.
+---
+Feel free to contribute if you happen to find this project useful. Any and all suggestions are welcome.
